@@ -39,7 +39,7 @@
                 </div>
 
                 <!-- College Email ID -->
-                <div class="form-group">
+                <div class="form-group"> 
                     <label for="collegeEmail">College Email ID</label>
                     <input type="text" class="form-control" id="collegeEmail" name="collegeEmail" placeholder="Enter college email ID" required>
                 </div>
@@ -110,7 +110,6 @@
                     </select>
                 </div>
                 
-
                 <!-- Regional Nodal Center Name -->
                 <div class="form-group">
                     <label for="regionalNodalCenterName">Regional Nodal Center Name</label>
@@ -123,8 +122,11 @@
                     <input type="text" class="form-control" id="nodalCenterPinCode" name="nodalCenterPinCode" placeholder="Enter pin code" required>
                 </div>
 
-                <button type="submit" class="btn btn-block">Submit</button>
+                <button type="submit" class="btn btn-block btn-primary">Submit</button>
             </form>
+            <div class="text-center mt-3">
+                <a href="php/view_registration_data.php" class="btn btn-info">Click here to see registration data</a>
+            </div>
         </div>
     </div>
 

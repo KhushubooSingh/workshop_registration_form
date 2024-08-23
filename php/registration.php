@@ -40,5 +40,5 @@ $conn->close();
 
 <!-- HTML for the Back Button -->
 <div style="text-align: center; margin-top: 20px;">
-    <a href="../index.html" class="btn" style="background-color: #385170; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back</a>
+    <a href="../index.php" class="btn" style="background-color: #385170; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back</a>
 </div>
