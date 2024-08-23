@@ -11,7 +11,7 @@ $result = $conn->query($sql);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registered Participants</title>
+    <title>IITK Vlab- Registered Participants</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -28,6 +28,11 @@ $result = $conn->query($sql);
         }
         .table tbody tr:nth-child(odd) {
             background-color: #ffffff; /* White for odd rows */
+        }
+        .btn-center {
+            display: inline-block; /* Ensure the button is treated as inline block for centering */
+            width: 150px; /* Set a specific width for the button */
+            text-align: center; /* Center text within the button */
         }
     </style>
 </head>
@@ -81,7 +86,7 @@ $result = $conn->query($sql);
         
         <!-- Back Button -->
         <div class="text-center mt-4">
-            <a href="../index.php" class="btn btn-secondary">Back</a>
+            <a href="../index.php" class="btn btn-secondary btn-center">Back</a>
         </div>
     </div>
 
